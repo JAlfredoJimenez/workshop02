@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2015.7.27)  28 JUL 2015 09:57
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2015.7.27)  28 JUL 2015 10:26
 entering extended mode
-**firstExample.tex
-(C:\Users\jaj4\Documents\GitHub\workshop02\firstExample.tex
+**criticalNos02.tex
+(C:\Users\jaj4\Documents\GitHub\workshop02\criticalNos02.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -13,6 +13,7 @@ an, ngerman-x-2009-06-19, nynorsk, oriya, panjabi, pinyin, polish, portuguese,
 romanian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swis
 sgerman, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, u
 senglishmax, welsh, loaded.
+
 (C:\Users\jaj4\Documents\GitHub\workshop02\ximera.cls
 Document Class: ximera 2015/01/14 Version .57 by Bart Snapp
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\article.cls"
@@ -386,6 +387,27 @@ File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
 braries\tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.0 (rcs-revision 1.2)
 )))
+(C:\Users\jaj4\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\frontendlayer\libraries
+\tikzlibraryexternal.code.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(C:\Users\jaj4\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\frontendlayer\tikz\li
+braries\tikzexternalshared.code.tex))
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
 Package: hyperref 2012/05/13 v6.82q Hypertext links for LaTeX
 
@@ -398,13 +420,11 @@ Package: hobsub-generic 2012/04/25 v1.12 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2012/04/25 v1.12 Construct package bundles (HO)
 Package hobsub Info: Skipping package `infwarerr' (already loaded).
 Package hobsub Info: Skipping package `ltxcmds' (already loaded).
-Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
+Package hobsub Info: Skipping package `ifluatex' (already loaded).
 Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
-Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in PDF mode is detected.
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
 Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
 Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
@@ -412,12 +432,7 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
 Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
-Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
-)
-Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
+Package hobsub Info: Skipping package `pdftexcmds' (already loaded).
 Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
 Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
 )
@@ -861,272 +876,125 @@ Excluding comment 'comment')
 \c@problemType=\count183
 \myfile=\write6
 )
-(C:\localtexmf\tex\latex\ximeraLatex-master\firstExample\preamble.tex
-(C:\Users\jaj4\AppData\Roaming\MiKTeX\2.9\tex\latex\tkz-euclide\tkz-euclide.sty
-Package: tkz-euclide 2011/06/01 1.16 c for plots 2d 
-(C:\Users\jaj4\AppData\Roaming\MiKTeX\2.9\tex\latex\tkz-base\tkz-base.sty
-Package: tkz-base 2011/06/01 1.16 c tkz-base
-
-(C:\Users\jaj4\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\frontendlayer\tikz\li
-braries\tikzlibraryarrows.code.tex
-File: tikzlibraryarrows.code.tex 2008/01/09 v3.0.0 (rcs-revision 1.1)
-
-(C:\Users\jaj4\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\libraries\pgflibrarya
-rrows.code.tex
-File: pgflibraryarrows.code.tex 2013/09/23 v3.0.0 (rcs-revision 1.16)
-\arrowsize=\dimen192
-))
-(C:\Users\jaj4\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\frontendlayer\tikz\li
-braries\tikzlibrarypositioning.code.tex
-File: tikzlibrarypositioning.code.tex 2008/10/06 v3.0.0 (rcs-revision 1.7)
-)
-(C:\Users\jaj4\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\frontendlayer\tikz\li
-braries\tikzlibraryshapes.misc.code.tex
-File: tikzlibraryshapes.misc.code.tex 2008/01/09 v3.0.0 (rcs-revision 1.1)
-
-(C:\Users\jaj4\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\libraries\shapes\pgfl
-ibraryshapes.misc.code.tex
-File: pgflibraryshapes.misc.code.tex 2013/07/18 v3.0.0 (rcs-revision 1.5)
-))
-(C:\Users\jaj4\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\frontendlayer\tikz\li
-braries\tikzlibrarydecorations.markings.code.tex
-(C:\Users\jaj4\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\libraries\decorations
-\pgflibrarydecorations.markings.code.tex))
-(C:\Users\jaj4\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\frontendlayer\tikz\li
-braries\tikzlibrarypatterns.code.tex
-File: tikzlibrarypatterns.code.tex 2008/01/15 v3.0.0 (rcs-revision 1.2)
-
-(C:\Users\jaj4\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\libraries\pgflibraryp
-atterns.code.tex
-File: pgflibrarypatterns.code.tex 2008/03/03 v3.0.0 (rcs-revision 1.13)
-))
-(C:\Users\jaj4\AppData\Roaming\MiKTeX\2.9\tex\latex\numprint\numprint.sty
-Package: numprint 2012/08/20 v1.39 Print numbers (HH)
-\c@nprt@mantissa@digitsbefore=\count184
-\c@nprt@mantissa@digitsafter=\count185
-\c@nprt@exponent@digitsbefore=\count186
-\c@nprt@exponent@digitsafter=\count187
-\nprt@digitwidth=\skip62
-\nprt@sepwidth=\skip63
-\nprt@decimalwidth=\skip64
-\nprt@blockwidth=\skip65
-\nprt@digittoks=\toks50
-\nprt@pretoks=\toks51
-\nprt@posttoks=\toks52
-\nprt@thisdigit=\count188
-\nprt@curpos=\count189
-\nprt@rndpos=\count190
-\c@nprt@digitsfirstblock=\count191
-\c@nprt@blockcnt=\count192
-\c@nprt@cntprint=\count193
-
-No configuration file `numprint.cfg' found.)
-(C:\Users\jaj4\AppData\Roaming\MiKTeX\2.9\tex\latex\fp\fp.sty
-Package: fp 1995/04/02
-
-`Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
-(C:\Users\jaj4\AppData\Roaming\MiKTeX\2.9\tex\latex\fp\defpattern.sty
-Package: defpattern 1994/10/12
-\actioncount=\count194
-)
-(C:\Users\jaj4\AppData\Roaming\MiKTeX\2.9\tex\latex\fp\fp-basic.sty
-Package: fp-basic 1996/05/13
-\FP@xs=\count195
-\FP@xia=\count196
-\FP@xib=\count197
-\FP@xfa=\count198
-\FP@xfb=\count199
-\FP@rega=\count200
-\FP@regb=\count201
-\FP@regs=\count202
-\FP@times=\count203
-)
-(C:\Users\jaj4\AppData\Roaming\MiKTeX\2.9\tex\latex\fp\fp-addons.sty
-Package: fp-addons 1995/03/15
-)
-(C:\Users\jaj4\AppData\Roaming\MiKTeX\2.9\tex\latex\fp\fp-snap.sty
-Package: fp-snap 1995/04/05
-)
-(C:\Users\jaj4\AppData\Roaming\MiKTeX\2.9\tex\latex\fp\fp-exp.sty
-Package: fp-exp 1995/04/03
-)
-(C:\Users\jaj4\AppData\Roaming\MiKTeX\2.9\tex\latex\fp\fp-trigo.sty
-Package: fp-trigo 1995/04/14
-)
-(C:\Users\jaj4\AppData\Roaming\MiKTeX\2.9\tex\latex\fp\fp-pas.sty
-Package: fp-pas 1994/08/29
-)
-(C:\Users\jaj4\AppData\Roaming\MiKTeX\2.9\tex\latex\fp\fp-random.sty
-Package: fp-random 1995/02/23
-\FPseed=\count204
-)
-(C:\Users\jaj4\AppData\Roaming\MiKTeX\2.9\tex\latex\fp\fp-eqn.sty
-Package: fp-eqn 1995/04/03
-)
-(C:\Users\jaj4\AppData\Roaming\MiKTeX\2.9\tex\latex\fp\fp-upn.sty
-Package: fp-upn 1996/10/21
-)
-(C:\Users\jaj4\AppData\Roaming\MiKTeX\2.9\tex\latex\fp\fp-eval.sty
-Package: fp-eval 1995/04/03
-))
-\tkzRadius=\dimen193
-\tkzLength=\dimen194
-\tkz@radi=\dimen195
-\tkz@ax=\dimen196
-\tkz@ay=\dimen197
-\tkz@bx=\dimen198
-\tkz@by=\dimen199
-\tkz@cx=\dimen200
-\tkz@cy=\dimen201
-\tkz@dx=\dimen202
-\tkz@dy=\dimen203
-
-(C:\Users\jaj4\AppData\Roaming\MiKTeX\2.9\tex\latex\tkz-base\tkz-tools-utilitie
-s.tex)
-(C:\Users\jaj4\AppData\Roaming\MiKTeX\2.9\tex\latex\tkz-base\tkz-tools-arith.te
-x
-File: tkz-tool-arith.tex tkz-tool-arith 1.161 c
-)
-(C:\Users\jaj4\AppData\Roaming\MiKTeX\2.9\tex\latex\tkz-base\tkz-tools-base.tex
-)
-(C:\Users\jaj4\AppData\Roaming\MiKTeX\2.9\tex\latex\tkz-base\tkz-tools-misc.tex
-)
-(C:\Users\jaj4\AppData\Roaming\MiKTeX\2.9\tex\latex\tkz-base\tkz-tools-math.tex
-)
-(C:\Users\jaj4\AppData\Roaming\MiKTeX\2.9\tex\latex\tkz-base\tkz-obj-points.tex
-)
-(C:\Users\jaj4\AppData\Roaming\MiKTeX\2.9\tex\latex\tkz-base\tkz-obj-segments.t
-ex)
-(C:\Users\jaj4\AppData\Roaming\MiKTeX\2.9\tex\latex\tkz-base\tkz-obj-marks.tex
-\tkz@cntmk=\count205
-))
-(C:\Users\jaj4\AppData\Roaming\MiKTeX\2.9\tex\latex\tkz-euclide\tkz-tools-inter
-sections.tex)
-(C:\Users\jaj4\AppData\Roaming\MiKTeX\2.9\tex\latex\tkz-euclide\tkz-tools-trans
-formations.tex)
-(C:\Users\jaj4\AppData\Roaming\MiKTeX\2.9\tex\latex\tkz-euclide\tkz-obj-lines.t
-ex)
-(C:\Users\jaj4\AppData\Roaming\MiKTeX\2.9\tex\latex\tkz-euclide\tkz-lib-symbols
-.tex)
-(C:\Users\jaj4\AppData\Roaming\MiKTeX\2.9\tex\latex\tkz-euclide\tkz-obj-circles
-.tex)
-(C:\Users\jaj4\AppData\Roaming\MiKTeX\2.9\tex\latex\tkz-euclide\tkz-obj-addpoin
-ts.tex))
-(C:\Users\jaj4\AppData\Roaming\MiKTeX\2.9\tex\latex\tkz-euclide\tkz-obj-polygon
-s.tex)
-(C:\Users\jaj4\AppData\Roaming\MiKTeX\2.9\tex\latex\tkz-euclide\tkz-obj-vectors
-.tex)
-(C:\Users\jaj4\AppData\Roaming\MiKTeX\2.9\tex\latex\tkz-euclide\tkz-obj-arcs.te
-x)
-(C:\Users\jaj4\AppData\Roaming\MiKTeX\2.9\tex\latex\tkz-euclide\tkz-obj-sectors
-.tex)
-(C:\Users\jaj4\AppData\Roaming\MiKTeX\2.9\tex\latex\tkz-euclide\tkz-obj-angles.
-tex)
-(C:\Users\jaj4\AppData\Roaming\MiKTeX\2.9\tex\latex\tkz-euclide\tkz-obj-protrac
-tor.tex))
-(C:\localtexmf\tex\latex\ximeraLatex-master\firstExample\firstExample.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
+(C:\Users\jaj4\Documents\GitHub\workshop02\criticalNos02.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
 
 ABD: EveryShipout initializing macros
 (C:\Users\jaj4\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count206
-\scratchdimen=\dimen204
+\scratchcounter=\count184
+\scratchdimen=\dimen192
 \scratchbox=\box45
-\nofMPsegments=\count207
-\nofMParguments=\count208
-\everyMPshowfont=\toks53
-\MPscratchCnt=\count209
-\MPscratchDim=\dimen205
-\MPnumerator=\count210
-\makeMPintoPDFobject=\count211
-\everyMPtoPDFconversion=\toks54
+\nofMPsegments=\count185
+\nofMParguments=\count186
+\everyMPshowfont=\toks50
+\MPscratchCnt=\count187
+\MPscratchDim=\dimen193
+\MPnumerator=\count188
+\makeMPintoPDFobject=\count189
+\everyMPtoPDFconversion=\toks51
 )
 \AtBeginShipoutBox=\box46
-Package hyperref Info: Link coloring ON on input line 6.
+Package hyperref Info: Link coloring ON on input line 4.
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count212
+\c@section@level=\count190
 )
-LaTeX Info: Redefining \ref on input line 6.
-LaTeX Info: Redefining \pageref on input line 6.
-LaTeX Info: Redefining \nameref on input line 6.
+LaTeX Info: Redefining \ref on input line 4.
+LaTeX Info: Redefining \pageref on input line 4.
+LaTeX Info: Redefining \nameref on input line 4.
 
-(C:\localtexmf\tex\latex\ximeraLatex-master\firstExample\firstExample.out)
-(C:\localtexmf\tex\latex\ximeraLatex-master\firstExample\firstExample.out)
+(C:\Users\jaj4\Documents\GitHub\workshop02\criticalNos02.out)
+(C:\Users\jaj4\Documents\GitHub\workshop02\criticalNos02.out)
 \@outlinefile=\write7
 
 
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.12} into 
 your preamble.
- on input line 6.
+ on input line 4.
 
-\c@lstlisting=\count213
-! Undefined control sequence.
-<recently read> \theabstract 
-                             
-l.7 \maketitle
-              
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-LaTeX Font Info:    Try loading font information for U+msa on input line 7.
+\c@lstlisting=\count191
+LaTeX Font Info:    Try loading font information for U+msa on input line 8.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 7.
+LaTeX Font Info:    Try loading font information for U+msb on input line 8.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
-) [1{C:/Users/jaj4/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+)
 
-]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 15.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 15.
+LaTeX Font Warning: Font shape `OT1/cmss/bx/sl' undefined
+(Font)              using `OT1/cmss/bx/n' instead on input line 19.
 
-(C:\Users\jaj4\Documents\GitHub\workshop02\firstExample.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 15.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 15.
-Package rerunfilecheck Info: File `firstExample.out' has not changed.
-(rerunfilecheck)             Checksum: 945D49A87C046CC016430DB3CF97254A;51.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 15.
- ) 
+[1
+
+{C:/Users/jaj4/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 53.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 53.
+
+(C:\Users\jaj4\Documents\GitHub\workshop02\criticalNos02.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 53.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 53.
+Package rerunfilecheck Info: File `criticalNos02.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 53.
+ )
+(\end occurred when \if on line 47 was incomplete)
+(\end occurred when \iftrue on line 47 was incomplete)
+(\end occurred when \if on line 46 was incomplete)
+(\end occurred when \iftrue on line 46 was incomplete)
+(\end occurred when \if on line 44 was incomplete)
+(\end occurred when \iftrue on line 44 was incomplete)
+(\end occurred when \if on line 36 was incomplete)
+(\end occurred when \iftrue on line 36 was incomplete)
+(\end occurred when \if on line 34 was incomplete)
+(\end occurred when \iftrue on line 34 was incomplete)
+(\end occurred when \if on line 33 was incomplete)
+(\end occurred when \iftrue on line 33 was incomplete) 
 Here is how much of TeX's memory you used:
- 31191 strings out of 494045
- 717501 string characters out of 3145972
- 886552 words of memory out of 3000000
- 33867 multiletter control sequences out of 15000+200000
- 10349 words of font info for 40 fonts, out of 3000000 for 9000
+ 27984 strings out of 494045
+ 653429 string characters out of 3145972
+ 805689 words of memory out of 3000000
+ 30765 multiletter control sequences out of 15000+200000
+ 7358 words of font info for 28 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 69i,8n,79p,741b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:
-/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Pro
-gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl10.pfb>
-Output written on firstExample.pdf (1 page, 48257 bytes).
+ 69i,8n,79p,742b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files (x86)/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbxsl10.pfb><C:/Program Files (x86)/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files (x86)/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files (x86)/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x86)/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files (x86)/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
+/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on criticalNos02.pdf (2 pages, 96742 bytes).
 PDF statistics:
- 36 PDF objects out of 1000 (max. 8388607)
- 3 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 83 PDF objects out of 1000 (max. 8388607)
+ 27 named destinations out of 1000 (max. 500000)
+ 13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
